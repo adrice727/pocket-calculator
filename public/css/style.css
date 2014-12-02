@@ -1,0 +1,93 @@
+body * {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+.calculator {
+  height: 400px;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 2px;
+}
+
+.screen {
+  background-color: #333131;
+  color: #FFFFFF;
+  width: 100%;
+  height: 20%;
+  font-weight: 200;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.current-operator {
+  width: 10%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.current-input {
+  width: 90%;
+  font-size: 50px;
+  text-align: right;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+.numbers {
+  width: 75%;
+  height: 100%;
+  background: #333131;
+}
+
+.operators {
+  width: 25%;
+  height: 100%;
+}
+
+.button-row {
+  height: 23%;
+}
+
+.button {
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.numbers .button {
+  background-color: #e5e5e5;
+  display: inline-block;
+  width: 32%;
+  margin: 0;
+  padding: 6px;
+}
+
+.operators .button {
+  height: 20%;
+  background-color: #ffa100;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+}
+
+.operators .button:last-child{
+  border-bottom: none;
+}
+
+.logo {
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  margin-top: 2px;
+  font-family: 'Courgette', cursive;
+}
